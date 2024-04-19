@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Header include(aici dati include la tot ce tine de header, navbar hero section etc conteaza ordinea in care dati include de exemplu nav primul hero section nr 2) -->
+      <include src="./partials/header.html"></include>
+    </header>
+    <main>
+      <!-- Aici dati include in ordinea in care vine ce ati lucrat de exemplu sub header avem sectiunea products dupa care urmeaza gallery  -->
+      <include src="./partials/products.html"></include>
+      <include src="./partials/howismade.html"></include>
+      <include src="./partials/galery.html"></include>
+      <include src="./partials/testimonials.html"></include>
+      <include src="./partials/cards.html"></include>
+    </main>
+    <footer>
+      <!-- Aici dati include la sectiunea de footer -->
+      <include src="./partials/footer.html"></include>
+    </footer>
+    <script src="./mobile-menu.js"></script>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./index.js"></script>
+
+    <script src="./js/cow-modal.js"></script>
+  </body>
+</html>
